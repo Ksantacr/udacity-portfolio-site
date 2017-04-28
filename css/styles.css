@@ -1,0 +1,246 @@
+/* External font */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9zs78p');
+  src:  url('../fonts/icomoon.eot?9zs78p#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9zs78p') format('truetype'),
+    url('../fonts/icomoon.woff?9zs78p') format('woff'),
+    url('../fonts/icomoon.svg?9zs78p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+  content: "\e900";
+}
+
+.icon-brand:before {
+  content: "\e900";
+}
+
+.icon-social:before {
+  content: "\e900";
+}
+
+.icon-twitter:before {
+  content: "\e901";
+}
+
+.icon-brand3:before {
+  content: "\e901";
+}
+
+.icon-tweet:before {
+  content: "\e901";
+}
+
+.icon-social3:before {
+  content: "\e901";
+}
+
+.icon-facebook:before {
+  content: "\e902";
+}
+
+.icon-brand2:before {
+  content: "\e902";
+}
+
+.icon-social2:before {
+  content: "\e902";
+}
+
+.icon-github:before {
+  content: "\e903";
+}
+/* Own styles */
+body {
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  color: #444;
+}
+a {
+  color: #031927;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 1.34em 0 0 0;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  background: rgba(0,0,0,1);
+}
+
+.subname {
+  color: #23395B;
+}
+
+.cover {
+  margin: 0 auto;
+  transition: all .4s;
+}
+
+.cover:hover {
+  box-shadow: 0px 2px 10px rgba(0,0,0,.6);
+}
+
+.trip-description {
+  margin: 0;
+}
+
+.date, .place{
+  font-weight: bolder;
+}
+
+.project-image {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.project-description {
+  position: absolute;
+  top: 300px;
+  padding: 25%;
+  width: 300px;
+  height: 300px;
+  color: #ddd;
+  text-shadow: 2px 2px 0px #333;
+  background: rgba(0,0,0,.5);
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.project-image:hover .project-description {
+  top: -20px;
+  background: rgba(0,0,0,.8);
+}
+
+.comming-soon {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #181f25;
+}
+
+.comming-soon p{
+  margin: 0;
+  font-size: 2em;
+  line-height: 300px;
+  text-align: center;
+  color: #ddd;
+}
+
+footer {
+  background: #031927;
+  padding-top: 2em;
+  overflow: hidden;
+  margin-top: 2.5em;
+}
+
+.social {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+  justify-content: center;
+}
+
+.social-item{
+  /* padding: 1em; */
+  margin: 0 0.5em;
+}
+
+.social-link{
+  margin-top: 2px;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.social-link:hover {
+  text-decoration: none;
+  background: #fff;
+}
+
+.social-item:nth-child(1):hover .social-link {
+  color: #3b5998;
+}
+
+.social-item:nth-child(2):hover .social-link {
+  color: #e95950;
+}
+
+.social-item:nth-child(3):hover .social-link {
+  color:  #4af;
+}
+
+.social-item:nth-child(4):hover .social-link {
+  color: #000;
+}
+
+.footer-message {
+  text-align: center;
+  color: #ddd;
+}
+
+.hearth {
+  color: #f00;
+}
+
+/* Overwriting (bootstrap) */
+hr {
+  border-top-width: 2px;
+  width: 100%;
+}
+
+h2{
+  margin: 0;
+}
+
+/* These class are created because Im just download grid bootstrap */
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Media quieres */
+@media screen and (max-width: 767px) {
+  .project-image {
+    margin: 0 auto;
+  }
+
+  .projects {
+    text-align: center;
+  }
+
+}
