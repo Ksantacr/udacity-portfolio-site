@@ -1,18 +1,18 @@
 /* External font */
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9zs78p');
-  src:  url('../fonts/icomoon.eot?9zs78p#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9zs78p') format('truetype'),
-    url('../fonts/icomoon.woff?9zs78p') format('woff'),
-    url('../fonts/icomoon.svg?9zs78p#icomoon') format('svg');
+  font-family: "icomoon";
+  src:  url("../fonts/icomoon.eot?9zs78p");
+  src:  url("../fonts/icomoon.eot?9zs78p#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?9zs78p") format("truetype"),
+    url("../fonts/icomoon.woff?9zs78p") format("woff"),
+    url("../fonts/icomoon.svg?9zs78p#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -70,7 +70,7 @@
 }
 /* Own styles */
 body {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 20px;
   color: #444;
 }
@@ -151,7 +151,7 @@ a:hover {
   color: #ddd;
 }
 
-.footer {
+footer {
   background: #031927;
   padding-top: 2em;
   overflow: hidden;
@@ -217,6 +217,7 @@ a:hover {
 /* Overwriting (bootstrap) */
 hr {
   border-top-width: 2px;
+  max-width: 100%;
 }
 
 h2{
