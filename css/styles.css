@@ -91,7 +91,7 @@ a:hover {
 }
 
 .subname {
-  color: #23395B;
+  color: #23395b;
 }
 
 .cover {
@@ -143,7 +143,7 @@ a:hover {
   background: #181f25;
 }
 
-.comming-soon p{
+.comming-soon .text{
   margin: 0;
   font-size: 2em;
   line-height: 300px;
@@ -151,7 +151,7 @@ a:hover {
   color: #ddd;
 }
 
-footer {
+.footer {
   background: #031927;
   padding-top: 2em;
   overflow: hidden;
@@ -217,7 +217,6 @@ footer {
 /* Overwriting (bootstrap) */
 hr {
   border-top-width: 2px;
-  width: 100%;
 }
 
 h2{
